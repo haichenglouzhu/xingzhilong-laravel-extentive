@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1496480253">
-  <project timestamp="1496480253">
+<coverage generated="1496480938">
+  <project timestamp="1496480938">
     <package name="LarXing\Src">
       <file name="/www/laravel-extentive/packages/larxing/src/LarXingTest.php">
         <class name="LarXingTest" namespace="LarXing\Src">
