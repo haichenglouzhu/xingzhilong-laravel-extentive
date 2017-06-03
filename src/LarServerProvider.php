@@ -23,7 +23,7 @@ class LarServerProvider extends ServiceProvider
      */
     public function register()
     {
-        $this->app->singleton('lar', function () {
+        $this->app->singleton('lar', function() {
             return new LarXingTest();
         });
     }
