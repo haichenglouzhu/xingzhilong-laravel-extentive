@@ -10,9 +10,13 @@
     ],
     "autoload": {
         "psr-4": {
-            "LarXing\\Src\\": "./src/"
+            "LarXing\\Src\\": "./src/",
+            "Tests\\": "./tests/"
         }
     },
     "minimum-stability": "dev",
-    "require": {}
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "^6.2"
+    }
 }

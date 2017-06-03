@@ -15,4 +15,9 @@ class LarXingTest
     {
         echo '我是测试数据';
     }
+
+    public function index()
+    {
+        return 2;
+    }
 }
