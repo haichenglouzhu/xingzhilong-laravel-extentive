@@ -1,4 +1,5 @@
 <?php
+
 namespace Tests;
 
 use PHPUnit\Framework\TestCase;
@@ -12,7 +13,7 @@ use LarXing\Src\LarXingTest;
  */
 class LarExtendTest extends TestCase
 {
-   /** @test */
+    /** @test */
     public function test_show_method()
     {
         $login = new LarXingTest();
