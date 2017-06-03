@@ -14,9 +14,25 @@ use LarXing\Src\LarXingTest;
 class LarExtendTest extends TestCase
 {
     /** @test */
-    public function test_show_method()
+    public function show_method()
     {
         $login = new LarXingTest();
         $this->assertEquals(2, $login->index());
     }
+
+    /** @test */
+    public function show_ssb()
+    {
+        $login = new LarXingTest();
+        $this->assertEquals(3, $login->bbtest());
+    }
+
+    /** @test */
+    public function show_test()
+    {
+
+        $this->assertEquals(4, LarXingTest::show());
+    }
+
+
 }

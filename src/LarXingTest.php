@@ -13,11 +13,16 @@ class LarXingTest
 {
     public static function show()
     {
-        echo '我是测试数据';
+        return 4;
     }
 
     public function index()
     {
         return 2;
+    }
+
+    public function bbtest()
+    {
+        return 3;
     }
 }
