@@ -1,4 +1,3 @@
-
 tools:
     php_mess_detector: true
     php_code_sniffer: true
@@ -7,7 +6,9 @@ tools:
     php_loc:
         enabled: true
         excluded_dirs: [vendor, tests]
-
+filter:
+    excluded_paths:
+        - 'tests/*'
 build:
     tests:
         override:
