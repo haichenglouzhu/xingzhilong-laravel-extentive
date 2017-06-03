@@ -1,1 +1,1 @@
-这是没说的
+[![Build Status](https://travis-ci.org/haichenglouzhu/xingzhilong-laravel-extentive.svg?branch=master)](https://travis-ci.org/haichenglouzhu/xingzhilong-laravel-extentive)
